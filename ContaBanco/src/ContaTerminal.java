@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ContaTerminal {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         System.out.println("Por favor, digite o numero da conta: ");
         int numCont = sc.nextInt();
